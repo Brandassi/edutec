@@ -27,12 +27,16 @@ section.slider{
 
 .slide-box img{
     width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
 }
 
 .nav-manual, .nav-auto{
     position: absolute;
+    bottom: 40px;
     width: 100%;
-    margin-top: 35%;
+    margin-top: -50%;
     display: flex;
     justify-content: center;
 }
