@@ -41,7 +41,7 @@ header.transparente {
 header.transparente .menu nav a,
 header.transparente .logo img,
 header.transparente .social button i {
-    color: #C6CFC7; 
+    color: #000000; 
 }
 
 .banner {
@@ -80,7 +80,7 @@ header.transparente .social button i {
 }
 
 .menu nav a{
-    color: black;
+    color: #000000;
     text-decoration: none;
     font-size: 18px;
     padding-right: 30px;
