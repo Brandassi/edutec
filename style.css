@@ -33,6 +33,38 @@ header{
     z-index: 9999;
 }
 
+header.transparente {
+    background-color: transparent; 
+    padding: 10px 4%; 
+}
+
+header.transparente .menu nav a,
+header.transparente .logo img,
+header.transparente .social button i {
+    color: #C6CFC7; 
+}
+
+.banner {
+    height: 100vh;
+    background-image: url('./img/banner.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+}
+.banner h1 {
+    font-size: 4em;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5); 
+}
+
+.banner h1 span {
+    color: #152a0e; 
+}
+
+
 .logo{
     width: 20%;
 }
@@ -115,6 +147,11 @@ section h2{
 section p{
     font-size: 20px;
 }
+
+section.slider {
+    margin-top: 100vh; /* Ajuste conforme necessário */
+}
+
 
 
 
