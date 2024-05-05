@@ -34,7 +34,7 @@ section.slider{
 
 .nav-manual, .nav-auto{
     position: absolute;
-    bottom: -570px;
+    bottom: -435px;
     width: 100%;
     margin-top: -50%;
     display: flex;

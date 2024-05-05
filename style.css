@@ -25,12 +25,18 @@ html{
 }
 
 header{
-    background-color: #C6CFC7;
+    background-color: transparent;
+    position: fixed;
     width: 100%;
     padding: 15px 4%;
-    position: sticky;
     top: 0;
-    z-index: 9999;
+    left: 0;
+    z-index: 10;
+    transition: background-color 0.5s ease;
+}
+
+header.rolagem {
+    background-color: #C6CFC7; 
 }
 
 header.transparente {
@@ -46,6 +52,8 @@ header.transparente .social button i {
 
 .banner {
     height: 100vh;
+    width: 100%;
+    position: relative;
     background-image: url('./img/banner.jpg'); 
     background-position: center;
     background-repeat: no-repeat;
@@ -54,6 +62,7 @@ header.transparente .social button i {
     align-items: center;
     justify-content: center;
     color: white; 
+    margin-top: 0px;
 }
 .banner h1 {
     font-size: 4em;
