@@ -78,15 +78,26 @@ section.slider{
 }
 
 @media screen and (max-width: 900px) {
-    .img-desktop{
-        display: none;
+    .img-desktop {
+        display: none;  
     }
 
-    .img-mobile{
-        display: block;
+    .img-mobile {
+        display: block; 
+        width: 100%; 
+        height: auto;  
     }
 
-    .nav-auto, .nav-manual{
-        margin-top: 60%;
+    .nav-auto, .nav-manual {
+        position: absolute;  
+        bottom: -243px;  
+        width: 100%;  
+        margin-top: 0;
+        justify-content: center; 
+    }
+
+    .nav-manual .manual-btn, .nav-auto div {
+        padding: 5px; 
+        margin: 0 5px;
     }
 }
