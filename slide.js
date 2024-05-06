@@ -1,4 +1,3 @@
-
 var radio = document.querySelector('.manual-btn')
 var cont = 1
 

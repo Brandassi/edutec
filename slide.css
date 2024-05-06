@@ -42,7 +42,7 @@ section.slider{
 }
 
 .nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid #152a0e;
+    border: 1px solid #b0bab0;
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -54,7 +54,7 @@ section.slider{
 }
 
 .nav-manual .manual-btn:hover{
-    background-color: #152a0e;
+    background-color: #001900;
 }
 
 #radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3, #radio4:checked~ .nav-auto .auto-btn4{

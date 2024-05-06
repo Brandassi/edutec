@@ -141,7 +141,7 @@ header.transparente .social button i {
     transform: scale(0.9);
 }
 
-/* estilização do conteúdo */
+
 
 section{
     padding: 90px 4%;
@@ -158,11 +158,8 @@ section p{
 }
 
 section.slider {
-    margin-top: 100vh; /* Ajuste conforme necessário */
+    margin-top: 100vh; 
 }
-
-
-
 
 #menu-mobile{
     background-color: #1111119f;
