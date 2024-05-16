@@ -10,13 +10,19 @@
     <script src="slide.js" defer></script>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
     <title>edutec</title>
-    
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="container">
-            <div class="logo"><img src="img/Design sem nome (1).svg"></div>
+            <div class="logo">
+                <a href="#">
+                    <i class="bi bi-globe-americas"></i>
+                    <span>ECOSYSTEM</span>
+                </a>
+            </div>
             <div class="menu">
                 <nav>
                     <a href="#home">home</a>
@@ -26,7 +32,6 @@
                     <a href="#contato">contato</a>
                 </nav>
             </div>
-
             <div class="social">
                 <button><i class="fa-brands fa-instagram"></i></button>
                 <button><i class="fa-brands fa-facebook-f"></i></button>
@@ -35,56 +40,43 @@
         </div>
     </header>
 
-    <section class="banner">
-        <h1>DESCUBRA UM <span>NOVO MUNDO</span></h1>
-    </section>
-    
-
     <section class="slider">
         <div class="slider-content">
-            
             <input type="radio" name="btn-radio" id="radio1">
             <input type="radio" name="btn-radio" id="radio2">
             <input type="radio" name="btn-radio" id="radio3">
             <input type="radio" name="btn-radio" id="radio4">
-
             <div class="slide-box primeiro">
                 <img class="img-desktop" src="img/slide1.1.jpg" alt="slide 1">
                 <img class="img-mobile" src="img/slide1.2.jpg" alt="slide 1">
             </div>
-
             <div class="slide-box">
                 <img class="img-desktop" src="img/slide2.2.jpg" alt="slide 2">
                 <img class="img-mobile" src="img/slide2.3.jpg" alt="slide 2">
             </div>
-
             <div class="slide-box">
                 <img class="img-desktop" src="img/slide-3.jpg" alt="slide 3">
                 <img class="img-mobile" src="img/slide-3-mob.jpg" alt="slide 3">
             </div>
-
             <div class="slide-box">
                 <img class="img-desktop" src="img/slide4.2.png" alt="slide 4">
                 <img class="img-mobile" src="img/slide-4-mob.jpg" alt="slide 4">
-                <!--ajuste de imagens para largura(px): 1056 e altura(px):351, MOBILE: largura: 1038 altura: 596-->
             </div>
-
             <div class="nav-auto">
                 <div class="auto-btn1"></div>
                 <div class="auto-btn2"></div>
                 <div class="auto-btn3"></div>
                 <div class="auto-btn4"></div>
             </div>
-
             <div class="nav-manual">
                 <label for="radio1" class="manual-btn"></label>
                 <label for="radio2" class="manual-btn"></label>
                 <label for="radio3" class="manual-btn"></label>
                 <label for="radio4" class="manual-btn"></label>
             </div>
-
         </div>
     </section>
+
     <section id="home">
         <div class="container1">
             <h2>Home</h2>
